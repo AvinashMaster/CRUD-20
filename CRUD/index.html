@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
+        integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+    <title>promise</title>
+</head>
+
+<body>
+    <div class="container mt-4">
+        <div class="row m-4">
+            <div class="col-md-6 offset-md-3 mt-4">
+                <form id="postForm">
+                    <div class="form-group">
+                        <label for="title">Title</label>
+                        <input type="text" id="title" class="form-control">
+                    </div>
+                    <div class="form-group">
+                        <label for="content">Content</label>
+                        <textarea type="text" id="content" rows="4" class="form-control"></textarea>
+                    </div>
+                    <div class="text-right">
+                        <input type="submit" value="submit" class="btn btn-primary" id="submitBtn">
+                        <input type="button" value="update" class="btn btn-primary d-none" id="updateBtn">
+                    </div>
+                </form>
+            </div>
+        </div>
+
+        <hr>
+        <div class="row m-4" id="postContainer">
+
+        </div>
+    </div>
+
+
+
+
+
+
+    <script src="./assets/js/app.js"></script>
+</body>
+
+</html>

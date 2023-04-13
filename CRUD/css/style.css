@@ -1,0 +1,15 @@
+body{
+    background-color: rgb(48, 158, 120);
+}
+.container{
+ background-color: #212021;
+}
+.card{
+background-color: rgb(202, 200, 205);
+}
+.card-header{
+    height: 22vh;
+}
+.card-body{
+    height: 30vh;
+}
